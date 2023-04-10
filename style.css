@@ -2,16 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(./backgroundimage.jpg);
+  
+    
+  }
+  details{
+    color: aquamarine;
   }
 
+  figcaption{
+    color: #42ebf4;
+  }
   header {
     background-color: #4285f4;
     color: #fff;
     text-align: center;
     padding: 1rem;
   }
+  h2{
+    color: rgb(196, 17, 11);
+    text-decoration: underline;
+  }
 
   h1 {
+  
     margin: 0;
     font-size: 3rem;
   }
@@ -31,15 +45,19 @@ body {
   nav ul li {
     display: inline-block;
     margin-right: 1rem;
+
   }
 
   nav ul li a {
     color: #4285f4;
     text-decoration: none;
+    transition: 0.6s;
   }
 
   nav ul li a:hover {
     text-decoration:underline;
+    color: rgb(82, 12, 20);
+    background-color: ;
   }
 
   main {
@@ -55,6 +73,7 @@ body {
   }
 
   p {
+    color: #f2f2f2;
     line-height: 1.5;
     font-size: 1.1rem;
   }
@@ -73,12 +92,7 @@ body {
     display: block;
  }
 
-  blockquote {
-    border-left: 5px solid #4285f4;
-    padding-left: 1rem;
-    margin-left: 0;
-    font-style: italic;
-  }
+
 
   footer {
     background-color: #4285f4;
@@ -91,3 +105,4 @@ body {
     margin: 0;
     font-size: 0.8rem;
   }
+  
